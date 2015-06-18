@@ -1,0 +1,11 @@
+{application, calypso_counter, [
+  {description, "Memory counter implementation"},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+    kernel,
+    stdlib
+  ]},
+  {mod, {calypso_counter_app, []}},
+  {env, []}
+]}.
