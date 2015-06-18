@@ -1,5 +1,5 @@
 -module(calypso_counter_app).
--author("begemot").
+-author("Sergey Loguntsov").
 
 -behaviour(application).
 
